@@ -30,8 +30,10 @@ public class GitDemo {
         for(int i = 1; i <= num; ++i){
             newNumber = newNumber * i;
         }
-        
+       
+        reverseNum = newNumber;
         return newNumber;
+        
         
     }
     
@@ -53,8 +55,7 @@ public class GitDemo {
         return factorialNumber;
         
 
-        reverseNum = newNumber;
-        return newNumber;
+        
 
     }
     
